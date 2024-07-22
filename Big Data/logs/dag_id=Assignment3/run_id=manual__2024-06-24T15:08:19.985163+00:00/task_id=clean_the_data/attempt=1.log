@@ -1,0 +1,40 @@
+[2024-06-24T15:08:46.564+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Assignment3.clean_the_data manual__2024-06-24T15:08:19.985163+00:00 [queued]>
+[2024-06-24T15:08:46.567+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Assignment3.clean_the_data manual__2024-06-24T15:08:19.985163+00:00 [queued]>
+[2024-06-24T15:08:46.567+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2024-06-24T15:08:46.572+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): clean_the_data> on 2024-06-24 15:08:19.985163+00:00
+[2024-06-24T15:08:46.574+0000] {standard_task_runner.py:57} INFO - Started process 88 to run task
+[2024-06-24T15:08:46.576+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Assignment3', 'clean_the_data', 'manual__2024-06-24T15:08:19.985163+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/assignment3_bigdata.py', '--cfg-path', '/tmp/tmpr_8ls2ru']
+[2024-06-24T15:08:46.576+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask clean_the_data
+[2024-06-24T15:08:46.594+0000] {task_command.py:410} INFO - Running <TaskInstance: Assignment3.clean_the_data manual__2024-06-24T15:08:19.985163+00:00 [running]> on host 183246c8fda6
+[2024-06-24T15:08:46.621+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='jaumesanchez1@gmail.com' AIRFLOW_CTX_DAG_OWNER='David' AIRFLOW_CTX_DAG_ID='Assignment3' AIRFLOW_CTX_TASK_ID='clean_the_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-24T15:08:19.985163+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-24T15:08:19.985163+00:00'
+[2024-06-24T15:08:46.626+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/assignment3_bigdata.py", line 38, in clean_the_data
+    df = pd.read_csv(file_path)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/base_parser.py", line 229, in _open_handles
+    errors=kwds.get("encoding_errors", "strict"),
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 614, in get_handle
+    storage_options=storage_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 396, in _get_filepath_or_buffer
+    raise ValueError(msg)
+ValueError: Invalid file path or buffer object type: <class 'NoneType'>
+[2024-06-24T15:08:46.629+0000] {taskinstance.py:1373} INFO - Marking task as UP_FOR_RETRY. dag_id=Assignment3, task_id=clean_the_data, execution_date=20240624T150819, start_date=20240624T150846, end_date=20240624T150846
+[2024-06-24T15:08:46.632+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 7 for task clean_the_data (Invalid file path or buffer object type: <class 'NoneType'>; 88)
+[2024-06-24T15:08:46.673+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2024-06-24T15:08:46.684+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
