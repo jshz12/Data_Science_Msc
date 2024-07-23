@@ -1,7 +1,8 @@
 Description of the project: Creation of a model to solve the Quora challenge https://www.kaggle.com/c/quora-questionpairs.
 
 
-Delivery format
+Delivery format:
+
 main.pdf is the description of our work.
 
 Reproduce_results.ipynb is a notebook that needs to load models from disk, run evaluations and make a dataframe with the evaluations of the results.
