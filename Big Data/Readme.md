@@ -8,4 +8,4 @@ Assignment 2: 10
 
 Assignment 3: 8,5
 
-Final Mark: 9.4
+Final Mark: 9.2
