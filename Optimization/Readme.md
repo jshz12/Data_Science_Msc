@@ -23,7 +23,7 @@ Problem set 2: **10**
 
 Practical exercises:
 
-Practical 1:** 10**
+Practical 1: **10**
 
 Practical 2: **9.2**
 
