@@ -17,26 +17,26 @@ _Marks:_
 
 Theoretical exercises:
 
-Problem set 1: 10
+Problem set 1: **10**
 
-Problem set 2: 10
+Problem set 2: **10**
 
 Practical exercises:
 
-Practical 1: 10
+Practical 1:** 10**
 
-Practical 2: 9.2
+Practical 2: **9.2**
 
-Practical 3: 10
+Practical 3: **10**
 
-Practical 4: 8
+Practical 4: **8**
 
-Practical 5: 9.3
+Practical 5: **9.3**
 
-Practical 6: 9.4
+Practical 6: **9.4**
 
-Final exam: 8.5
+Final exam: **8.5**
 
-Final grade: 9.2
+Final grade: **9.2**
 
 
