@@ -7,7 +7,7 @@ On the second assignment, we use the Daily Sports and Activities dataset from th
 
 The third assignment was based on the creation of a GAN to perform data augmentation for chest X-ray images. Moreover, we were asked to compute the FID and to extract some conclusions.
 
-The last assignment consisted in a brief presentation on a DSxHealth topic. The following paper was studied and presented: A Database Driven Decision Support System: Customized Mortality Prediction.
+The last assignment consisted in a brief presentation on a DSxHealth topic. The following paper was studied and presented: A Database Driven Decision Support System: Customized Mortality Prediction. I worked with my David Íñiguez in this assignment.
 
 Assignment 1:** 9.7**
 
