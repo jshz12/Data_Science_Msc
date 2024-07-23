@@ -9,14 +9,14 @@ The third assignment was based on the creation of a GAN to perform data augmenta
 
 The last assignment consisted in a brief presentation on a DSxHealth topic. The following paper was studied and presented: A Database Driven Decision Support System: Customized Mortality Prediction. I worked with my David Íñiguez in this assignment.
 
-Assignment 1:** 9.7**
+Assignment 1: **9.7**
 
 Assignment 2: **10**
 
 Assignment 3: **9.5**
 
-Assignment 4:** 9.2**
+Assignment 4: **9.2**
 
-Final exam:** 7.2**
+Final exam: **7.2**
 
 Final mark: **8.8**
