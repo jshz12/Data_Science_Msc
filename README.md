@@ -1,6 +1,6 @@
 
 # Msc Data Science at University of Barcelona
-Welcome to my GitHub repository dedicated to my Master's program in Fundamental Principles of Data Science at UB. In this repository, you will find a collection of my coursework and projects from my academic journey. This repository serves as a comprehensive portfolio of my work, showcasing my dedication to mastering the main basis and principles from the different areas of Data Science.
+Welcome to my GitHub repository for my Master's program in Fundamental Principles of Data Science at UB. Here, you'll find a collection of my coursework and projects from my studies. This repository is a comprehensive showcase of my work, reflecting my commitment to mastering the core foundations and principles across various areas of Data Science.
 
 ## About the Program
 
