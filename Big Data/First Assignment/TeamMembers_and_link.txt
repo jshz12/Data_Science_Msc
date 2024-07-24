@@ -1,0 +1,9 @@
+Team Members:
+- David Íñiguez Gómez
+- Jaime Leonardo Sánchez Salazar
+
+Repository link: 
+- https://hub.docker.com/repository/docker/davidiniguezgomez/assignment1_davidiniguez_jaumesanchez
+
+Comments:
+- No keys needed since our repository is public.
