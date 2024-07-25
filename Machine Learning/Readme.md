@@ -6,14 +6,14 @@ In the second project, we were expected to produce a brief research paper.
 
 The marks are the following:
 
-Kaggle competition: 9.5
+Kaggle competition: **9.5**
 
-Paper: 9
+Paper: **9**
 
-First theoretical exam: 9.7
+First theoretical exam: **9.7**
 
-Second theoretical exam: 6.4
+Second theoretical exam: **6.4**
 
-Quizzes global grade: 9.5
+Quizzes global grade: **9.5**
 
-Final grade: 8.8
+Final grade: **8.8**
