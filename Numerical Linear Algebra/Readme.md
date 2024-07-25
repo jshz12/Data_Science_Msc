@@ -13,3 +13,4 @@ Average mark of the the projects: **9.3**
 Final exam: **8.3**
 
 Final grade: **8.8**
+
