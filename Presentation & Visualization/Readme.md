@@ -17,7 +17,3 @@ Storytelling: **10**
 Final exam: **10**
 
 Final mark: **9.4**
-
-
-
-
