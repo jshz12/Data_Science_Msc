@@ -19,4 +19,5 @@ Assignment 4: **9.2**
 
 Final exam: **7.2**
 
+
 Final mark: **8.8**
