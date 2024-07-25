@@ -8,14 +8,14 @@ Assignment 3:  For this problem we’ll use the toy dataset ``problem_set_1_data
 
 _Marks _: 
 
-Assignment 1: 9
+Assignment 1: **9**
 
-Assignment 2: 9
+Assignment 2: **9**
 
-Assignment 3: 8 
+Assignment 3: **8** 
 
-Final exam:  8.5
+Final exam:  **8.5**
 
-Final mark: 8.6
+Final mark: **8.6**
 
 
